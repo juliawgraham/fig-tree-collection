@@ -6,6 +6,10 @@
     background-color: #444C42;
 }
 
+#welcome-text {
+    color: #657160;
+}
+
 #btm-nav {
     background-color: #90B082;
     /* position: absolute; */
