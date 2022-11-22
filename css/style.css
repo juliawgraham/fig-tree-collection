@@ -1,3 +1,7 @@
+/* body {
+    padding-bottom: 100px;
+} */
+
 #logo {
     height: 35px;
 }
@@ -8,6 +12,8 @@
 
 #btm-nav {
     background-color: #90B082;
+    /* position: absolute; */
+    /* height: 100px; */
 }
 
 #btm-nav .navbar-nav > li {
@@ -15,7 +21,7 @@
     padding-right: 8vw;
 }
 
-small {
+small, .small {
     font-size: .7em !important;
 }
 
@@ -27,4 +33,8 @@ small {
 #donate-icon-row {
     margin-left: 0;
     margin-right: 0;
+}
+
+#footer {
+    padding-bottom: 16vh;
 }
