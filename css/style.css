@@ -24,6 +24,11 @@ p {
     font-size: .9em !important;
 }
 
+.card img {
+    height: 95%;
+    object-fit: cover;
+}
+
 #btm-nav {
     background-color: #90B082;
 }
