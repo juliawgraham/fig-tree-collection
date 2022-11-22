@@ -2,6 +2,20 @@
     height: 35px;
 }
 
-.navbar {
+#top-bar {
     background-color: #444C42;
+}
+
+#btm-nav {
+    background-color: #90B082;
+}
+
+#btm-nav .navbar-nav > li {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+#donate-icon {
+    margin-top: 3px;
+    height: 1.9rem;
 }
