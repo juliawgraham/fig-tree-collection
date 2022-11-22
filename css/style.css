@@ -4,7 +4,7 @@ html, body {
 }
 
 #content {
-    max-height: calc(100% - 10%);
+    max-height: calc(100vh - 10vh);
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -42,6 +42,7 @@ p {
 
 #btm-nav {
     background-color: #90B082;
+    height: 10vh !important; /* use media queries for tablet vs phone*/
 }
 
 #btm-nav .navbar-nav > li {
