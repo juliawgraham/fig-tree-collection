@@ -11,11 +11,20 @@
 }
 
 #btm-nav .navbar-nav > li {
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 8vw;
+    padding-right: 8vw;
+}
+
+small {
+    font-size: .7em !important;
 }
 
 #donate-icon {
     margin-top: 3px;
     height: 1.9rem;
+}
+
+#donate-icon-row {
+    margin-left: 0;
+    margin-right: 0;
 }
