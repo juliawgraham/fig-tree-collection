@@ -4,7 +4,7 @@ html, body {
 }
 
 #content {
-    max-height: calc(100vh - 9.5vh);
+    max-height: calc(100vh - 8vh);
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -46,7 +46,7 @@ p {
 
 #btm-nav {
     background-color: #90B082;
-    height: 9.5vh !important;
+    height: 8vh !important;
 }
 
 #btm-nav .navbar-nav > li {
@@ -55,14 +55,14 @@ p {
 }
 
 small, .small {
-    font-size: .7em !important;
+    font-size: .7rem !important;
 }
 
 #donate-icon {
     margin-top: 3px;
-    margin-left: 5px;
+    margin-left: 8px;
     padding-bottom: 3px;
-    height: 1.8rem;
+    height: 3.3vh;
     width: auto;
 }
 
@@ -85,16 +85,4 @@ small, .small {
 
 a, a:visited, a:hover, a:active {
     color: #90B082 !important;
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    #btm-nav {
-        height: 6vh !important;
-    }
-    #content {
-        max-height: calc(100vh - 6vh);
-        overflow-y: scroll;
-        overflow-x: hidden;
-    }    
 }
