@@ -4,7 +4,7 @@ html, body {
 }
 
 #content {
-    max-height: calc(100vh - 10vh);
+    max-height: calc(100vh - 9.5vh);
     overflow-y: scroll;
     overflow-x: hidden;
 }
@@ -46,7 +46,7 @@ p {
 
 #btm-nav {
     background-color: #90B082;
-    height: 10vh !important; /* use media queries for tablet vs phone*/
+    height: 9.5vh !important;
 }
 
 #btm-nav .navbar-nav > li {
@@ -60,7 +60,10 @@ small, .small {
 
 #donate-icon {
     margin-top: 3px;
-    height: 1.9rem;
+    margin-left: 5px;
+    padding-bottom: 3px;
+    height: 1.8rem;
+    width: auto;
 }
 
 #donate-icon-row {
@@ -82,4 +85,16 @@ small, .small {
 
 a, a:visited, a:hover, a:active {
     color: #90B082 !important;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #btm-nav {
+        height: 6vh !important;
+    }
+    #content {
+        max-height: calc(100vh - 6vh);
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }    
 }
