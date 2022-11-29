@@ -3,26 +3,34 @@ html, body {
     height: 100%;
 }
 
+/* includes all content besides the footer */
 #content {
     max-height: calc(100vh - 8vh);
     overflow-y: scroll;
     overflow-x: hidden;
 }
 
-#logo {
-    height: 35px;
-}
+/* top bar with site name and logo  */
 
 #top-bar {
     background-color: #444C42;
 }
 
+#logo {
+    height: 35px;
+}
+
+/* 'legacy fig tree collection' text at the top of the homepage */
+
 #welcome-text {
     color: #657160;
 }
 
-p {
-    font-size: .8em !important;
+/* tree card styling  */
+
+.card {
+    background-color: #444C42 !important;
+    width: 100%;
 }
 
 .card img {
@@ -35,19 +43,18 @@ p {
     text-decoration: none;
 }
 
-.card {
-    background-color: #444C42 !important;
-    width: 100%;
-}
-
+/* light gray text for the click icon */
 .light-gray-text {
     color: #adb5bd;
 }
 
+/* flag icon for tree specific pages */
 #flag-icon {
     height: 1.8rem;
     width: auto;
 }
+
+/* bottom navigation bar */
 
 #btm-nav {
     background-color: #90B082;
@@ -59,9 +66,8 @@ p {
     padding-right: 8vw;
 }
 
-small, .small {
-    font-size: .7rem !important;
-}
+/* since the donate icon is not from bootstrap's icons, 
+it needs special styling */
 
 #donate-icon {
     margin-top: 3px;
@@ -76,10 +82,26 @@ small, .small {
     margin-right: 0;
 }
 
+/* generic styling */
+
+/* embedded videos stretch full length */
+
 .embedVids {
     padding: 0px !important;
     margin: 0px !important;
 }
+
+/* font sizes */
+
+p {
+    font-size: .8em !important;
+}
+
+small, .small {
+    font-size: .7rem !important;
+}
+
+/* link and button styling  */
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
     background-color: #90B082 !important;
