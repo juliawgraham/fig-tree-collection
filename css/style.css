@@ -58,7 +58,7 @@ html, body {
 
 #btm-nav {
     background-color: #90B082;
-    height: 8vh !important;
+    height: 8vh;
 }
 
 #btm-nav .navbar-nav > li {
