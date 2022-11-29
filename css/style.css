@@ -40,6 +40,10 @@ p {
     width: 100%;
 }
 
+.light-gray-text {
+    color: #adb5bd;
+}
+
 #btm-nav {
     background-color: #90B082;
     height: 10vh !important; /* use media queries for tablet vs phone*/
