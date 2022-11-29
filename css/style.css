@@ -79,3 +79,7 @@ small, .small {
     border-radius: 1rem !important;
     color: #000000 !important;
 }
+
+a, a:visited, a:hover, a:active {
+    color: #90B082 !important;
+}
