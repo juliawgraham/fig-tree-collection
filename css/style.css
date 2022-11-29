@@ -44,6 +44,11 @@ p {
     color: #adb5bd;
 }
 
+#flag-icon {
+    height: 1.8rem;
+    width: auto;
+}
+
 #btm-nav {
     background-color: #90B082;
     height: 8vh !important;
