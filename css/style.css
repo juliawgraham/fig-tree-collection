@@ -118,9 +118,10 @@ a, a:visited, a:hover, a:active {
     color: #90B082 !important;
 }
 
-/* fonts */
+/* fonts and styling*/
 .dela {
     font-family: "Mrs Saint Delafield";
+    text-shadow: 2px 2px 2px black;
 }
 .kamer {
     font-family: "Kameron";
@@ -130,4 +131,8 @@ a, a:visited, a:hover, a:active {
 }
 body {
     font-family: "Kameron" !important;
+}
+
+.textshadow {
+    text-shadow: 1px 1px 2px black;
 }
