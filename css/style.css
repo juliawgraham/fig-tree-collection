@@ -101,6 +101,10 @@ small, .small {
     font-size: .7rem !important;
 }
 
+h5 {
+    font-size: 0.9rem !important;
+}
+
 /* link and button styling  */
 
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
@@ -112,4 +116,18 @@ small, .small {
 
 a, a:visited, a:hover, a:active {
     color: #90B082 !important;
+}
+
+/* fonts */
+.dela {
+    font-family: "Mrs Saint Delafield";
+}
+.kamer {
+    font-family: "Kameron";
+}
+.abril {
+    font-family: "Abril Fatface";
+}
+body {
+    font-family: "Kameron" !important;
 }
